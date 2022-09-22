@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<work-2>
+  <!-- 1 -->
+    <!-- <CD:Title> Feel </CD:Title> -->
+    <!-- <Book:Title> Returning to Earth </Book:Title>. -->
+  <!-- 2 -->
+  <S:Student xmlns:S="http://www.Google.com">
+  <S:First>John</S:First>
+  <S:Last>Dewey</S:Last>
+  <S:Title>Student</S:Title>
+  </S:Student>
+  <!-- 3 -->
+  <!-- <Auc:Books xmlns:Auc="http://www.Google.com" xmlns:B="http://www.youtube.com">
+  <Auc:BookReview>
+  <B:Table> -->
+  <!-- 4 -->
+  <Catalog1 xmlns:B = "http://www.Google.com">
+  <B:Booklist>
+  <B:Title B:Type = "Fiction">Evening in Paris</B:Title>
+  <B:Price>$123</B:Price>
+  </B:Booklist>
+  </Catalog1>
+  <!-- 5 -->
+  <MRow>
+  <Mi>x</Mi>
+  <Mo>+</Mo>
+  <Mn>1</Mn>
+  </MRow>
+  <!-- 6 -->
+  <Catalog2 xmlns:Book = "http://www.Google.com">
+  <Book:Booklist>
+  <Book:Title Book:Type = "Fiction">Evening in Paris</Book:Title>
+  <Book:Price>$123</Book:Price>
+  </Book:Booklist>
+  </Catalog2>
+  <!-- 7 -->
+    <Catalog3 xmlns = "http://www.Google.com">
+      <Book>
+        <Title type = "Fiction">Evening in Paris</Title>
+        <Price>$123</Price>
+      </Book>
+      <Book-2>
+        <Title type = "Non-Fiction">Return to Earth</Title>
+        <Price xmlns = "http://www.Google.com">$23</Price>
+        <Title type = "Non-Fiction">Journey to the center of the Moon</Title>
+        <Price>$123</Price>
+      </Book-2>
+    </Catalog3>
+</work-2>
