@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session1>
+    <!-- 1 -->
+    <watch>
+        <name>Titan</name>
+        <price>$50</price>
+        <description>A Brown Diamond Studded Watch.</description>
+    </watch>
+
+    <!-- 2 -->
+    <flowerplanet>
+        <name>Rose</name>
+        <price>$1</price>
+        <description>Red in color </description>
+        <number>700</number>
+    </flowerplanet>
+
+    <!-- 3 -->
+    <!-- <!DOCTYPE Music_Library [
+        <!ELEMENT Music_Library (Title, Artst, Country, Price, Year)>
+        <!ELEMENT Title (#PCDATA)>
+        <!ELEMENT Artst (#PCDATA)>
+        <!ELEMENT Country (#PCDATA)>
+        <!ELEMENT Price (#PCDATA)>
+        <!ELEMENT Year (#PCDATA)>
+        <!ELEMENT MS "Thatz Life">
+    ]> -->
+        <Music_Library>
+            <Title>ylo</Title>
+            <!-- <Artst>&MS; - jenny dan</Artst> -->
+            <Country>Pakistan</Country>
+            <price>$12</price>
+            <Year>2002</Year>
+        </Music_Library>
+
+        <!-- 4 -->
+        <Book>
+            <name>Good xml</name>
+            <cost>$20</cost>
+        </Book>
+
+    <!-- 5 -->
+    <name NickName="John">
+        <!-- john is yet to pay the term fees -->
+        <last>Brown</last>
+        <Semester>Fainal</Semester>    
+    </name>
+
+    <!-- 6 -->
+    <name NickName="John">
+        <First>John</First>
+        <!-- john is yet to pay the term fees -->
+        <last>Brown</last>
+        <Semester>Fainal</Semester>    
+    </name>
+
+    <!-- 7 -->
+    <name NickName="John">
+        <First>John</First>
+        <!-- john is yet to pay the term fees -->
+        <last>Brown</last>
+        <?feesprocessor SELECT fees FROM STUDENTFEES?>
+        <Semester>Fainal</Semester>    
+    </name>
+
+        <!-- 8 -->
+        <name NickName="John">
+        <First>John</First>
+        <!-- john is yet to pay the term fees -->
+        <last>Brown</last>
+        <Semester>Fainal> 10  20 </Semester>    
+    </name>
+
+        <!-- 9 -->
+        <Svg>
+            <desc>Three Shapes</desc>
+            <Para>But the formula was <![CDATA[if(&x1 + &x2)]]> wich resulted in 7.</Para>
+        </Svg>
+
+        <!-- 10 -->
+        <!-- <!DOCTYPE Letter [
+            <!ENTITY address "15 Downing St Floor 1">
+            <!ENTITY city "New york">
+        ]> -->
+    <Letter>
+        <To>&quot; Tom Smith&quot;</To>
+        <!-- <address>&address;</address> -->
+        <!-- <address>&city;</address> -->
+        <body>Hi! How are you? The Sum is &gt; $1000</body>
+        <From>ARNOLD</From>
+    </Letter>
+
+    <!-- 11 -->
+    <!-- <!DOCTYPE Music_Collection[
+        <!ENTITY R "Rok">
+        <!ENTITY S "Soft">
+        <!ENTITY RA "Rap">
+        <!ENTITY HH "Hiphop">
+        <!ENTITY F "Folk">
+    ]> -->
+
+    <!-- 12 -->
+    <!-- <! DOCTYPE name_of_root_element SYSTEM "URL of the external DTD Subset"[Internal DTD Subset]> -->
+
+    <!-- 13 -->
+    <!-- <!DOCTYPE program SYSTEM "HelloJimmy.dtd"> -->
+    <program>
+        <comments>This is simple Java program. IT will display the message "HelloJimmy,How are you" on execution.</comments>
+        <code>Public static void main(string[]args){System.out.println("Hello Jimmy,How are you?"); //display the string.}}</code>
+    </program>
+
+    <!-- 14 -->
+    <!-- <!ELEMENT program (comments. code)>
+    <!ELEMENT comments (#PCDATA)>
+    <!ELEMENT code (#PCDATA)> -->
+
+    <!-- 15 -->
+    <!-- <elementName attName1="attValue2" attName2="attValue2"...> -->
+        <player gender="male">
+            <FirstName>Tom</FirstName>
+            <LastName>Federer</LastName>
+        </player>
+</Session1>
